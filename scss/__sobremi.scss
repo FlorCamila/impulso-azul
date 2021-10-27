@@ -1,0 +1,53 @@
+/*estilos main sobre mi*/
+
+.main2{
+	min-height: 100vh;
+}
+
+.sobreMi{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	min-height: 670px;
+}
+
+.sobreMi .content, .sobreMi .image{
+	width: 50%;
+}
+
+.sobreMi .content{
+	font-size: 18px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 15px;
+	box-sizing: border-box;
+	margin-left:2.5%;
+}
+
+.sobreMi .content .tituloSobreMi{
+	font-size: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.sobreMi .image{
+	width: 50%;
+	height: 100%;
+	margin-left:25%;
+}
+
+.rosa{
+	color: #FFB0AB;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.azul{
+	color: #7693B0;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+

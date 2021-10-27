@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+/*estilos main sobre mi*/
+.main2 {
+  min-height: 100vh; }
+
+.sobreMi {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 670px; }
+
+.sobreMi .content, .sobreMi .image {
+  width: 50%; }
+
+.sobreMi .content {
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+  box-sizing: border-box;
+  margin-left: 2.5%; }
+
+.sobreMi .content .tituloSobreMi {
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.sobreMi .image {
+  width: 50%;
+  height: 100%;
+  margin-left: 25%; }
+
+.rosa {
+  color: #FFB0AB;
+  font-weight: bold;
+  font-size: 20px; }
+
+.azul {
+  color: #7693B0;
+  font-weight: bold;
+  font-size: 20px; }
+
+/*estilos main portfolio*/
+.main3 p {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px;
+  margin: 20px; }
+
+.main3 .linea {
+  background-color: #7693B0;
+  height: 30px; }
+
+.contentImagen {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.contentImagen .imagen {
+  width: 300px;
+  position: relative;
+  height: 300px;
+  margin-bottom: 5px; }
+
+.imagen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.zoom {
+  transition: transform .2s;
+  z-index: 1; }
+
+.zoom:hover {
+  transform: scale(1.5);
+  z-index: 10; }
+
+/*estilos main faq*/
+.main4 {
+  min-height: 100vh; }
+
+.main4 .bannerPrincipal {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url("../media/perro.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  padding: 30px; }
+
+.main4 .faqTitulo {
+  text-align: center;
+  margin: 20px;
+  font-size: 30px; }
+
+.accordion-item {
+  width: 800px;
+  margin: 0 auto;
+  padding: 10px;
+  border: none; }
+
+.accordion-button {
+  background-color: #FFB0AB; }
+
+.accordion-button:focus {
+  box-shadow: none; }
+
+.accordion-button:not(.collased) {
+  color: black;
+  background-color: #FFB0AB; }
+
+/*estilos main contacto*/
+.main5 {
+  min-height: 100vh; }
+
+.main5 .banner {
+  background-color: #7693B0;
+  height: 80px; }
+
+.flexContent {
+  display: flex;
+  padding: 20px;
+  justify-content: space-evenly;
+  text-align: center; }
+
+.flexContent .imageContact img {
+  height: 35px;
+  width: 35px; }
+
+.flexContent .imageContact p {
+  font-size: 0.9rem;
+  margin-top: 10px; }
+
+.tituloForm p {
+  font-size: 25px;
+  text-align: center;
+  padding: 20px; }
+
+form {
+  width: 450px;
+  margin: auto;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  margin-top: 20px; }
+
+form input, textarea {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid #7693B0;
+  border-radius: 10px; }
+
+form textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%; }
+
+form .boton {
+  background-color: #7693B0;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold; }
+
+body {
+  height: 100vh;
+  font-family: 'Poppins', sans-serif; }
+
+/*estilos nav*/
+.navbar-nav {
+  margin-left: auto;
+  margin-right: 30px; }
+
+.img-fluid {
+  height: 80px; }
+
+.navbar-light .navbar-nav .nav-item .nav-link {
+  color: black;
+  padding: 20px; }
+
+.navbar-nav {
+  font-size: 17px;
+  margin-top: 15px; }
+
+/*estilos main*/
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: linear-gradient(to right, #7693b0, #8f98be, #ae9cc5, #cc9fc4, #e7a4bc, #e7a4bc, #e7a4bc, #e7a4bc, #cc9fc4, #ae9cc5, #8f98be, #7693b0);
+  animation-name: animacion;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  background-size: 500% 500%; }
+
+@keyframes animacion {
+  0% {
+    background-position: 5% 0%; }
+  50% {
+    background-position: 96% 0%; }
+  100% {
+    background-position: 5% 0%; } }
+
+.titulo {
+  font-size: 90px;
+  color: #FFFFFF; }
+
+.titulo2 {
+  font-size: 30px;
+  color: #FFFFFF; }
+
+/*estilos footer*/
+#footer {
+  height: 100px;
+  padding: 10px;
+  text-align: center;
+  background-color: #FFFFFF; }
+
+#footer .otroLogo img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px; }
+
+@media screen and (max-width: 1300px) {
+  .sobreMi {
+    display: flex;
+    flex-direction: row;
+    min-height: 670px; } }
+
+@media screen and (max-width: 950px) {
+  .sobreMi .content {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%; }
+  .sobreMi .image {
+    width: 100%;
+    height: 100%;
+    margin-left: 0; }
+  form {
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px; } }
+
+@media screen and (max-width: 730px) {
+  .sobreMi .content {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%; }
+  .sobreMi .image {
+    width: 100%;
+    height: 100%;
+    margin-left: 0; }
+  form {
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px; }
+  .flexContent .imageContact img {
+    height: 25px;
+    width: 25px; }
+  .flexContent .imageContact p {
+    font-size: 0.5rem;
+    margin-top: 10px; } }
+
+@media screen and (max-width: 500px) {
+  .titulo {
+    font-size: 50px;
+    color: #FFFFFF; }
+  .titulo2 {
+    font-size: 15px;
+    color: #FFFFFF; }
+  .sobreMi .content {
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%; }
+  .sobreMi .image {
+    width: 100%;
+    height: 100%;
+    margin-left: 0; }
+  .accordion-item {
+    margin: 0;
+    font-size: 13px;
+    width: 99%; }
+  form {
+    width: 100%;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px; }
+  .flexContent .imageContact img {
+    height: 25px;
+    width: 25px; }
+  .flexContent .imageContact p {
+    font-size: 0.5rem;
+    margin-top: 10px; }
+  .img-fluid {
+    height: 60px; } }

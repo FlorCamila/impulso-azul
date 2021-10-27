@@ -1,0 +1,43 @@
+/*estilos main portfolio*/
+
+.main3 p{
+	text-align: center;
+	font-size: 30px;
+	padding: 10px;
+	margin: 20px;
+}
+
+.main3 .linea{
+	background-color: #7693B0;
+	height: 30px;
+}
+.contentImagen{
+	display: flex;
+	width: 85%;
+	margin: auto;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.contentImagen .imagen{
+	width:300px;
+	position: relative;
+	height:300px;
+	margin-bottom: 5px;
+}
+
+.imagen img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.zoom{
+	transition: transform .2s;
+	z-index: 1;
+}
+
+.zoom:hover{
+	transform: scale(1.5);
+	z-index: 10;
+}

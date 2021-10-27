@@ -1,0 +1,44 @@
+/*estilos main faq*/
+
+.main4{
+	min-height: 100vh;
+}
+
+.main4 .bannerPrincipal{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-image: url('../media/perro.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 300px;
+	padding: 30px;
+}
+
+.main4 .faqTitulo{
+	text-align: center;
+	margin: 20px;
+	font-size: 30px;
+}
+
+.accordion-item{
+	width: 800px;
+	margin: 0 auto;
+	padding: 10px;
+	border: none;
+}
+
+.accordion-button{
+	background-color: #FFB0AB;
+}
+
+.accordion-button:focus{
+	box-shadow: none;
+}
+
+.accordion-button:not(.collased){
+	color: black;
+	background-color: #FFB0AB;
+}
