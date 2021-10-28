@@ -154,8 +154,7 @@ form input, textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 10px;
-  border: 2px solid #7693B0;
-  border-radius: 10px; }
+  border: 2px solid #7693B0; }
 
 form textarea {
   min-height: 100px;
