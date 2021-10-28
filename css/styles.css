@@ -10,8 +10,8 @@
   flex-wrap: wrap;
   min-height: 670px; }
 
-.sobreMi .content, .sobreMi .image {
-  width: 50%; }
+.sobreMi .content {
+  width: 60%; }
 
 .sobreMi .content {
   font-size: 18px;
@@ -271,6 +271,8 @@ body {
     width: 100%;
     height: 100%;
     margin-left: 0; }
+  .zoom:hover {
+    transform: none; }
   form {
     width: 100%;
     margin: auto;
@@ -317,6 +319,8 @@ body {
     width: 100%;
     height: 100%;
     margin-left: 0; }
+  .zoom:hover {
+    transform: none; }
   .accordion-item {
     margin: 0;
     font-size: 13px;
