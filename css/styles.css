@@ -168,6 +168,31 @@ form .boton {
   color: #FFFFFF;
   font-weight: bold; }
 
+/*estilos error*/
+.error {
+  background: linear-gradient(to right, #f4acb7, #f8babb, #fbc8c2, #fdd6cc, #ffe4d9);
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.containerError {
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 1.5; }
+
+.botonError {
+  display: inline-block;
+  margin-top: 15px;
+  text-decoration: none;
+  background: #F4ACB7;
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 5px; }
+
 body {
   height: 100vh;
   font-family: 'Poppins', sans-serif; }
