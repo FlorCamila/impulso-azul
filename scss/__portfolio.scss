@@ -1,4 +1,5 @@
 /*estilos main portfolio*/
+$primary-color: #7693B0;
 
 .main3 p{
 	text-align: center;
@@ -8,7 +9,7 @@
 }
 
 .main3 .linea{
-	background-color: #7693B0;
+	background-color: $primary-color;
 	height: 30px;
 }
 .contentImagen{

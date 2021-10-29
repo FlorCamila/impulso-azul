@@ -1,4 +1,6 @@
 /*estilos main sobre mi*/
+$primary-color: #7693B0;
+$secondary-color: #FFB0AB;
 
 .main2{
 	min-height: 100vh;
@@ -39,13 +41,13 @@
 }
 
 .rosa{
-	color: #FFB0AB;
+	color: $secondary-color;
 	font-weight: bold;
 	font-size: 20px;
 }
 
 .azul{
-	color: #7693B0;
+	color: $primary-color;
 	font-weight: bold;
 	font-size: 20px;
 }

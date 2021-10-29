@@ -126,7 +126,7 @@
 
 .flexContent {
   display: flex;
-  padding: 20px;
+  padding: 40px;
   justify-content: space-evenly;
   text-align: center; }
 
@@ -141,14 +141,15 @@
 .tituloForm p {
   font-size: 25px;
   text-align: center;
-  padding: 20px; }
+  padding: 20px;
+  margin-top: 20px; }
 
 form {
   width: 450px;
   margin: auto;
   padding: 10px 20px;
   box-sizing: border-box;
-  margin-top: 20px; }
+  margin-top: 30px; }
 
 form input, textarea {
   width: 100%;
@@ -234,12 +235,8 @@ body {
   100% {
     background-position: 5% 0%; } }
 
-.titulo {
-  font-size: 90px;
-  color: #FFFFFF; }
-
-.titulo2 {
-  font-size: 30px;
+.titulo1 {
+  font-size: 80px;
   color: #FFFFFF; }
 
 /*estilos footer*/
@@ -330,6 +327,16 @@ body {
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px; }
+  .tituloForm p {
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px; }
+  .flexContent {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    text-align: center; }
   .flexContent .imageContact img {
     height: 25px;
     width: 25px; }

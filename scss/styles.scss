@@ -60,13 +60,8 @@ body{
 	}
 }
 
-.titulo{
-	font-size: 90px;
-    color: #FFFFFF;	
-}
-
-.titulo2{
-	font-size: 30px;
+.titulo1{
+	font-size: 80px;
     color: #FFFFFF;
 }
 
@@ -193,6 +188,19 @@ body{
 		padding: 10px 20px;
 		box-sizing: border-box;
 		margin-top: 20px;
+	}
+	.tituloForm p{
+		font-size: 20px;
+		text-align: center;
+		padding: 15px;
+		margin-top: 25px;
+	}
+
+	.flexContent{
+		display: flex;
+		padding:30px;
+		justify-content: space-between;
+		text-align: center;
 	}
 
 	.flexContent .imageContact img{
