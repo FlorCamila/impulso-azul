@@ -278,7 +278,7 @@ body {
 
 @media screen and (max-width: 730px) {
   .titulo1 {
-    font-size: 50px;
+    font-size: 55px;
     color: #FFFFFF; }
   .sobreMi .content {
     flex-direction: column;
@@ -296,8 +296,8 @@ body {
     box-sizing: border-box;
     margin-top: 20px; }
   .flexContent .imageContact img {
-    height: 25px;
-    width: 25px; }
+    height: 30px;
+    width: 30px; }
   .flexContent .imageContact p {
     font-size: 0.5rem;
     margin-top: 10px; } }
