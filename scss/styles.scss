@@ -116,6 +116,11 @@ body{
 }
 
 @media screen and (max-width: 730px){
+	.titulo1{
+		font-size: 50px;
+		color: #FFFFFF;	
+	}
+
 	.sobreMi .content{
 		flex-direction: column;
 		justify-content: center;
@@ -149,14 +154,9 @@ body{
 }
 
 @media screen and (max-width: 500px){
-	.titulo{
-		font-size: 50px;
+	.titulo1{
+		font-size: 45px;
 		color: #FFFFFF;	
-	}
-	
-	.titulo2{
-		font-size: 15px;
-		color: #FFFFFF;
 	}
 
 	.sobreMi .content{
