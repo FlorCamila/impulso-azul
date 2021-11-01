@@ -9,6 +9,6 @@ Este es mi primer proyecto, en el cuál realicé un sitio de tatuajes, mostrando
 -CSS
 -SASS
 -FLEXBOX
--BOOSTRAP
+-BOOTSTRAP
 
 Pueden ingresar aquí a ver el site: https://florcamila.github.io/impulso-azul/ 
