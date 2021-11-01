@@ -6,6 +6,10 @@ $secondary-color: #FFB0AB;
 	min-height: 100vh;
 }
 
+.linea2{
+	background-color: $secondary-color;
+	height: 30px;
+}
 .sobreMi{
 	display: flex;
 	flex-direction: row;
@@ -35,9 +39,9 @@ $secondary-color: #FFB0AB;
 }
 
 .sobreMi .image{
-	width: 50%;
+	width: 65%;
 	height: 100%;
-	margin-left:25%;
+	margin-left:15%;
 }
 
 .rosa{
