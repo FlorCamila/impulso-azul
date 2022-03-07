@@ -23,37 +23,35 @@ $secondary-color: #FFB0AB;
 }
 
 .sobreMi .content{
-	font-size: 18px;
+	font-size: 25px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	padding: 15px;
 	box-sizing: border-box;
 	margin-left:2.5%;
+	text-align: justify;
 }
 
 .sobreMi .content .tituloSobreMi{
-	font-size: 30px;
+	font-size: 40px;
 	margin-bottom: 30px;
 	text-align: center;
 }
 
+/*.sobreMi .content .bgColor{
+	background-color: $secondary-color;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: justify;
+}*/
+
 .sobreMi .image{
 	width: 65%;
 	height: 100%;
-	margin-left:15%;
-}
-
-.rosa{
-	color: $secondary-color;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.azul{
-	color: $primary-color;
-	font-weight: bold;
-	font-size: 20px;
+	margin-left:18%;
+	border: 15px solid $secondary-color;
+	border-radius: 50%;
 }
 
 

@@ -6,22 +6,26 @@ $secondary-color: #FFB0AB;
 }
 
 .main4 .bannerPrincipal{
-	display: flex;
+	/*display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: center;
+	justify-content: center;*/
 	background-image: url('../media/perro.jpeg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	min-height: 300px;
-	padding: 30px;
+	min-height: 250px;
+	
 }
 
 .main4 .faqTitulo{
 	text-align: center;
 	margin: 20px;
-	font-size: 30px;
+	font-size: 40px;
+}
+
+.accordion{
+	font-size: 20px;
 }
 
 .accordion-item{
@@ -33,6 +37,8 @@ $secondary-color: #FFB0AB;
 
 .accordion-button{
 	background-color: $secondary-color;
+	font-size: 20px;
+	border-radius: 10px;
 }
 
 .accordion-button:focus{

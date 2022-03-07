@@ -7,7 +7,7 @@ $primary-color: #7693B0;
 
 .main5 .banner{
 	background-color: $primary-color;
-	height:80px;
+	height:30px;
 }
 
 .flexContent{
@@ -23,12 +23,12 @@ $primary-color: #7693B0;
 }
 
 .flexContent .imageContact p{
-	font-size: 0.9rem;
+	font-size: 20px;
 	margin-top: 10px;
 }
 
 .tituloForm p{
-	font-size: 25px;
+	font-size: 30px;
 	text-align: center;
 	padding: 20px;
 	margin-top: 20px;
@@ -47,6 +47,7 @@ form input, textarea{
 	margin-bottom: 20px;
 	padding: 10px;
 	border: 2px solid $primary-color;
+	border-radius: 10px;
 }
 
 form textarea{

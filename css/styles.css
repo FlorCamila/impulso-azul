@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hubballi&display=swap");
 /*estilos main sobre mi*/
 .main2 {
   min-height: 100vh; }
@@ -18,33 +18,32 @@
   width: 60%; }
 
 .sobreMi .content {
-  font-size: 18px;
+  font-size: 25px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 15px;
   box-sizing: border-box;
-  margin-left: 2.5%; }
+  margin-left: 2.5%;
+  text-align: justify; }
 
 .sobreMi .content .tituloSobreMi {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 30px;
   text-align: center; }
 
+/*.sobreMi .content .bgColor{
+	background-color: $secondary-color;
+	padding: 20px;
+	border-radius: 10px;
+	text-align: justify;
+}*/
 .sobreMi .image {
   width: 65%;
   height: 100%;
-  margin-left: 15%; }
-
-.rosa {
-  color: #FFB0AB;
-  font-weight: bold;
-  font-size: 20px; }
-
-.azul {
-  color: #7693B0;
-  font-weight: bold;
-  font-size: 20px; }
+  margin-left: 18%;
+  border: 15px solid #FFB0AB;
+  border-radius: 50%; }
 
 /*estilos main portfolio*/
 .main3 p {
@@ -56,6 +55,9 @@
 .main3 .linea {
   background-color: #7693B0;
   height: 30px; }
+
+.main3 .tituloPortfolio {
+  font-size: 40px; }
 
 .contentImagen {
   display: flex;
@@ -88,21 +90,23 @@
   min-height: 100vh; }
 
 .main4 .bannerPrincipal {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
+  /*display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;*/
   background-image: url("../media/perro.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 300px;
-  padding: 30px; }
+  min-height: 250px; }
 
 .main4 .faqTitulo {
   text-align: center;
   margin: 20px;
-  font-size: 30px; }
+  font-size: 40px; }
+
+.accordion {
+  font-size: 20px; }
 
 .accordion-item {
   width: 800px;
@@ -111,7 +115,9 @@
   border: none; }
 
 .accordion-button {
-  background-color: #FFB0AB; }
+  background-color: #FFB0AB;
+  font-size: 20px;
+  border-radius: 10px; }
 
 .accordion-button:focus {
   box-shadow: none; }
@@ -126,7 +132,7 @@
 
 .main5 .banner {
   background-color: #7693B0;
-  height: 80px; }
+  height: 30px; }
 
 .flexContent {
   display: flex;
@@ -139,11 +145,11 @@
   width: 35px; }
 
 .flexContent .imageContact p {
-  font-size: 0.9rem;
+  font-size: 20px;
   margin-top: 10px; }
 
 .tituloForm p {
-  font-size: 25px;
+  font-size: 30px;
   text-align: center;
   padding: 20px;
   margin-top: 20px; }
@@ -159,7 +165,8 @@ form input, textarea {
   width: 100%;
   margin-bottom: 20px;
   padding: 10px;
-  border: 2px solid #7693B0; }
+  border: 2px solid #7693B0;
+  border-radius: 10px; }
 
 form textarea {
   min-height: 100px;
@@ -199,7 +206,7 @@ form .boton {
 
 body {
   height: 100vh;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Hubballi', cursive; }
 
 /*estilos nav*/
 .navbar {
@@ -208,7 +215,7 @@ body {
 .navbar-nav {
   margin-left: auto;
   margin-right: 30px;
-  font-size: 18px;
+  font-size: 25px;
   margin-top: 12px; }
 
 .img-fluid {
@@ -241,11 +248,12 @@ body {
     background-position: 5% 0%; } }
 
 .titulo1 {
-  font-size: 80px;
+  font-size: 100px;
   color: #FFFFFF; }
 
 /*estilos footer*/
 #footer {
+  font-size: 20px;
   height: 100px;
   padding: 10px;
   text-align: center;
@@ -324,7 +332,7 @@ body {
     transform: none; }
   .accordion-item {
     margin: 0;
-    font-size: 13px;
+    font-size: 20px;
     width: 99%; }
   form {
     width: 100%;
@@ -333,7 +341,7 @@ body {
     box-sizing: border-box;
     margin-top: 30px; }
   .tituloForm p {
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     padding: 15px;
     margin-top: 25px; }
@@ -346,7 +354,7 @@ body {
     height: 30px;
     width: 30px; }
   .flexContent .imageContact p {
-    font-size: 0.5rem;
+    font-size: 12px;
     margin-top: 10px; }
   .img-fluid {
     height: 60px; } }
