@@ -30,7 +30,8 @@
 .sobreMi .content .tituloSobreMi {
   font-size: 40px;
   margin-bottom: 30px;
-  text-align: center; }
+  text-align: center;
+  padding: 10px; }
 
 /*.sobreMi .content .bgColor{
 	background-color: $secondary-color;
@@ -103,7 +104,8 @@
 .main4 .faqTitulo {
   text-align: center;
   margin: 20px;
-  font-size: 40px; }
+  font-size: 40px;
+  padding: 10px; }
 
 .accordion {
   font-size: 20px; }
@@ -151,7 +153,7 @@
 .tituloForm p {
   font-size: 30px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
   margin-top: 20px; }
 
 form {
